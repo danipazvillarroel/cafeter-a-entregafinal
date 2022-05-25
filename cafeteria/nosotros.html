@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería SASS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <header class="header header-nosotros">
+        <div class="contenido-header contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <img src="build/img/logo.svg" alt="logo">
+                </div>
+
+                <nav class="nav-principal">
+                    <a href="index.html">Inicio</a>
+                    <a class="activo" href="nosotros.html">Nosotros</a>
+                    <a href="proceso.html">Proceso</a>
+                    <a href="menu.html">Menú</a>
+                    <a href="galeria.html">Galería</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+
+            <div class="texto-header">
+                <h1>Una nueva experiencia cada día</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor contenido-principal">
+        
+        <h2><span>Conoce más</span> sobre nosotros</h2>
+        
+        <div class="contenido-nosotros">
+            <div class="imagen">
+                
+                <picture>
+                    <img loading="lazy"decoding="async" src="build/img/nosotros_sidebar.jpg" lazyalt="imagen" width="500" height="300">
+                </picture>
+                
+            </div>
+
+            <div class="texto">
+                <p>Desde 1939 ofreciendo la mayor calidad de la zona en cafés de alta gama, frapés, combinados, tés, chocolates y todo lo que puedas desear. Nuestro objetivo ha sido, es y siempre será que te sientas como en casa tomando lo que te apetezca en un ambiente cálido y amigable.</p>
+                <blockquote>La magia del sabor</blockquote>
+                <p>Frente a una taza con café se reflexiona, se sueña, se imagina, se escribe, se conversa, se enamora, se seduce, se rompe, se reconcilia, se halaga, se sugiere, se invita... Y el café, el misterioso café escucha, profetiza, atestigua, aconseja, da fe, observa, asiente, se ruboriza...”.</p>
+            </div>
+        </div>
+
+    </main>
+
+
+    
+    <footer class="footer">
+        <div class="contenedor contenido-footer bg-white">
+            <div class="footer-box ubicacion">
+                <h3>Ubicación</h3>
+                <p>Avenida Maipú 2500</p>
+                <p>Olivos - Buenos Aires, Argentina</p>
+            </div>
+            <div class="footer-box reservacion">
+                <h3>Reservas</h3>
+                <p>Tel. 11-35324678</p>
+                <a href="tel:55555555">Llamar</a>
+            </div>
+            <div class="footer-box horario">
+                <h3>Horario</h3>
+                <p>Lun-Jue: 11:00 - 22:00</p>
+                <p>Vie-Sab: 09:00 - 24:00</p>
+                <p>Domingo: Cerrado</p>
+            </div>
+        </div>
+        <p class="copyright">Todos los derechos reservados · La Cafetería 2022</p>
+    </footer>
+
+</body>
+</html>

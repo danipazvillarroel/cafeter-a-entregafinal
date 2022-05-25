@@ -1,3 +1,1 @@
-# cafeter-a-entregafinal
-# entregafinal-cafeteria-desarrolloweb
-# cafeter-a-entregafinal
+Se puede chequear en https://danipazvillarroel-cafeteria-entregafinal-dwcoder.netlify.app
